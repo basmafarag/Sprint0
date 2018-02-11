@@ -18,10 +18,23 @@
 9) Create ALLMyCommands.txt : -put it in the local directory
 			      -' $ add .'
 
-10) Delete the second file: '$ +git rm --cached 'file name' '
+10) Delete the second file: '$ +git rm 'file name' '
 
-11) Restore the deleted file : '$ git add .'
+11) Restore the deleted file : '$ git checkout 'commit id' 'commit name'
 
 12) edit ALLMyCommands: edit from the local then add, commit, push again
 
-13) Create README.md file: create, add , commit, and push.
+13) Create README.md file
+
+14) create ReadMe branch: git branch ReadMe
+			  git push origin ReadMe
+
+15) Add README.md : $ git add README.md
+	            $ git commit -m "adding"
+                    $ git push
+
+16) merge the two branches: git checkout master
+			    git merge test
+			    git push origin master
+
+17) edit AllmyCommands : edit, save, add, commit, and push
