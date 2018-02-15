@@ -22,7 +22,10 @@
 
 11) Restore the deleted file : '$ git checkout 'commit id' 'commit name'
 
-12) edit ALLMyCommands: edit from the local then add, commit, push again
+12) edit ALLMyCommands: edit from the local then 
+				$ git add 'Git Branching.txt
+				$ git commit -m "restore"
+		 		$ git push
 
 13) Create README.md file
 
@@ -33,8 +36,11 @@
 	            $ git commit -m "adding"
                     $ git push
 
-16) merge the two branches: git checkout master
-			    git merge test
-			    git push origin master
+16) merge the two branches: $ git checkout master
+			    $ git merge test
+			    $ git push origin master
 
-17) edit AllmyCommands : edit, save, add, commit, and push
+17) edit AllmyCommands : edit, save
+		    $ git add ALLMyCommands.txt
+	            $ git commit -m "adding"
+                    $ git push
